@@ -6,6 +6,8 @@ set(CMAKE_CXX_COMPILER "clang++")
 
 project(hello VERSION 0.1.0 LANGUAGES C CXX)
 
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+
 set(SOURCES
     src/main.cpp
 )

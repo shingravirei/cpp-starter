@@ -1,7 +1,7 @@
 #include <fmt/format.h>
 
 int main(int argc, char *argv[]) {
-  fmt::print("Hello, {}!", "Subarashii");
+    fmt::print("Hello, {}!", "World!");
 
-  return 0;
+    return 0;
 }
